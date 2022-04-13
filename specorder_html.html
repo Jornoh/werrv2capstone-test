@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  
+  <!-- import fonts -->
+
+  <!-- import bootstrap & css stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="this css bro.css"" -->
+  <link href="specorder_stylesheet.css" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WerRV Special Order Form</title>
+</head>
+<body>
+  <div class="header">
+      <!--header -->
+          <img
+            class="wer-rv-logo"
+            src="https://anima-uploads.s3.amazonaws.com/projects/623bb045296adad5621afffb/releases/623bb15dfaee24ba5a832854/img/werrv-logo@2x.png"
+          />
+          <h1 class="title">Special Order Desk</h1>
+  </div>
+
+
+          
+  <!-- general search -->
+  <div class="general-search">
+    <b>General Search</b> <br>
+    <input class="reg-search-bars" type="text" placeholder="Search"> <br>
+
+    <input class="reg-search-bars" id="gen-search" type="text" placeholder="Search"> <br>
+    <button class="btn btn-info" onclick="generalSearch()" type="button">Search</button>
+    
+    <button class="search-buttons" type="button">Search</button>
+  </div>
+          
+  <!-- advanced search -->
+  <div class="advanced-search"> 
+
+      <table border="0" cellpadding="3" cellspacing="0" id="advanced-search-table">
+          <tbody>
+
+    <b>Advanced Search</b> <br>
+
+    <label for="upc-search"> UPC/Barcode </label> 
+    <input class="reg-search-bars" id="upc-barcode" type="text" > <br>
+
+    <label for="manu-brand"> Manufacturer/Brand</label> 
+    <input class="reg-search-bars" id="manu-brand" type="text"> <br>
+
+    <input  list="manuBrandOptions" id="manu-brand" type="text"/>
+        <datalist id="manuBrandOptions">
+          <option>CWR</option>
+          <option>Keystone</option>
+          <option>Meyer</option>
+          <option>Other</option>
+        </datalist> <br>
+
+    <label for="manu-partnum"> Manufacturer Part Number </label> 
+    <input class="reg-search-bars" id="manu-partnum" type="text" > <br>
+
+    <label for="prod-name"> Product Name </label> 
+    <input class="reg-search-bars" id="prod-name" type="text"> <br>
+    
+    <!-- Product Type drop down + text input hybrid -->
+    <label for="upc-search"> Product Type </label> 
+    <input id="prod-type" type="text" list="cars" />
+    <datalist id="cars">
+      <option>Security</option>
+      <option>Cooling</option>
+      <option>Transmission</option>
+      <option>Other</option>
+    </datalist> 
+
+    <!--Advanced search button-->
+    <button class="search-buttons" type="button">Search</button>
+
+    <!-- Overlay test button? -->
+    <button class="contact-button" onclick="on()" type="button">Overlay Contact Form</button>
+  </div>
+
+
+  <!-- contact form overlay -->  
+  <div class="contact-form" id="contact">
+    <h1> WerRV Special Order Contact Form</h1>
+    <i>By entering your information on this form, you are requesting a quote for the product listed together with shipping to the address provided. There is no commitment by you or WerRV to make any purchase based on this estimate. Once an estimate has been provided you will have the opportunity to place a firm order.</i>
+    <form>
+      <div class="mb-3">
+        <label for="full-name" class="form-label">Full name:</label>
+        <input type="email" class="form-control" id="full-name" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="phone-num" class="form-label">Phone number:</label>
+        <input type="email" class="form-control" id="phone-num" aria-describedby="emailHelp">
+      </div>
+        <div class="mb-3">
+          <label for="contact-email" class="form-label">Contact email:</label>
+          <input type="email" class="form-control" id="contact-email" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="address" class="form-label">Expected Delivery Address:</label>
+          <input type="password" class="form-control" id="address">
+        </div>
+        <div class="mb-3">
+          <label for="apt-suite" class="form-label">Apartment/suite number:</label>
+          <input type="email" class="form-control" id="apt-suite" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="city" class="form-label">City:</label>
+          <input type="email" class="form-control" id="city" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="state-prov" class="form-label">State/Province:</label>
+          <input type="email" class="form-control" id="state-prov" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="country-reg" class="form-label">Country/Region:</label>
+          <input type="email" class="form-control" id="country-reg" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="zip" class="form-label">Zip Code:</label>
+          <input type="email" class="form-control" id="zip" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="special-req" class="form-label">Special Requests/Comments:</label>
+          <input type="email" class="form-control" id="special-req" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Checkbox in case we need it</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div> 
+
+       
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="specorder_jv.js"></script>
+  </body>
+  </html>

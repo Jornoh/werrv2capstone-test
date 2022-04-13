@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css?family=Quantico:400|Roboto:400,700,500|Montserrat:400");
+
+.search-fields-frame {
+  align-items: flex-start;
+  background-color: #f8f4f4;
+  display: flex;
+  height: 982px;
+  overflow: hidden;
+  width: 1512px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.search-fields-window {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 1649px;
+  width: 1512px;
+}
+
+.flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 243px;
+  margin-top: 5px;
+  min-width: 803px;
+}
+
+.overlap-group1 {
+  height: 487px;
+  margin-left: 15px;
+  position: relative;
+  width: 573px;
+}
+
+.listbox-component-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 269px;
+  position: absolute;
+  top: 0;
+  width: 573px;
+}
+
+.clip-list {
+  align-items: flex-start;
+  display: flex;
+  height: 243px;
+  margin-top: 15px;
+  padding: 72px 286px;
+  width: 573px;
+}
+
+.dropdown-list {
+  height: 1px;
+  width: 1px;
+}
+
+.list-box-main {
+  align-items: center;
+  background-color: var(--geyser);
+  border-radius: 8px;
+  box-shadow: 0px 4px 14px #0000001a;
+  display: flex;
+  height: 47px;
+  margin-top: 5px;
+  min-width: 573px;
+  padding: 15.5px 32.7px;
+}
+
+.placeholder-text {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 16px;
+  min-width: 377px;
+  padding: 0 18.4px;
+}
+
+.select-item-category {
+  height: 20px;
+  letter-spacing: 0;
+  margin-top: -2.86px;
+  width: 340px;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chevron {
+  height: 5px;
+  margin-left: 97px;
+  margin-top: 0.05px;
+  width: 22px;
+}
+
+.prod-desc-input {
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 172px;
+  width: 573px;
+}
+
+.sku-input {
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 65px;
+  width: 573px;
+}
+
+.search-button-1 {
+  cursor: pointer;
+  height: 38px;
+  left: 218px;
+  position: absolute;
+  top: 284px;
+  width: 138px;
+}
+
+.search-1 {
+  cursor: pointer;
+  height: 28px;
+  left: 250px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 288px;
+}
+
+.prod-name-input {
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 119px;
+  width: 573px;
+}
+
+.listbox-component {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 269px;
+  position: absolute;
+  top: 218px;
+  width: 573px;
+}
+
+.flex-col-1 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  min-height: 239px;
+  width: 215px;
+}
+
+.product-name {
+  height: 21px;
+  letter-spacing: 0;
+  margin-right: 5px;
+  margin-top: 31px;
+  min-width: 116px;
+}
+
+.manufacturer-part-number {
+  height: 21px;
+  letter-spacing: 0;
+  margin-top: 36px;
+  min-width: 215px;
+}
+
+.product-description {
+  height: 21px;
+  letter-spacing: 0;
+  margin-right: 5px;
+  margin-top: 33px;
+  min-width: 159px;
+}
+
+.product-type {
+  height: 21px;
+  letter-spacing: 0;
+  margin-right: 5px;
+  margin-top: 34px;
+  min-width: 106px;
+}
+
+.manufacturer-brand {
+  height: 21px;
+  letter-spacing: 0;
+  margin-right: 5px;
+  min-width: 163px;
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 379px;
+  width: 1512px;
+}
+
+.flex-row {
+  align-items: center;
+  display: flex;
+  margin-right: 149px;
+  margin-top: 13px;
+  min-width: 709px;
+}
+
+.manufacturer-input {
+  height: 38px;
+  margin-left: 27px;
+  width: 573px;
+}
+
+.upc-barcode {
+  height: 21px;
+  letter-spacing: 0;
+  margin-top: 1px;
+  min-width: 109px;
+}
+
+.general-search {
+  height: 21px;
+  letter-spacing: 0;
+  margin-top: 31px;
+  min-width: 124px;
+}
+
+.general-search-input {
+  height: 38px;
+  margin-right: 13px;
+  margin-top: 8px;
+  width: 573px;
+}
+
+.search-container {
+  height: 38px;
+  margin-right: 12px;
+  margin-top: 18px;
+  position: relative;
+  width: 138px;
+}
+
+.search {
+  cursor: pointer;
+  height: 28px;
+  left: 32px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+}
+
+.search-button {
+  cursor: pointer;
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.overlap-group {
+  background-color: #202c7c;
+  height: 102px;
+  position: relative;
+  width: 1512px;
+}
+
+.title {
+  color: var(--white);
+  font-family: var(--font-family-quantico);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 637px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 41px;
+  transform: rotate(-0.02deg);
+  width: 339px;
+}
+
+.wer-rv-logo {
+  height: 80px;
+  left: 454px;
+  object-fit: cover;
+  position: absolute;
+  top: 22px;
+  width: 195px;
+}
+
+.advanced-search {
+  height: 21px;
+  letter-spacing: 0;
+  margin-top: 51px;
+  min-width: 142px;
+}

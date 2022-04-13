@@ -1,0 +1,75 @@
+body {
+  background-color: #f8f4f4;
+  margin: auto;
+  text-align: center;
+}
+
+#header {
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+#nav-bar {
+  background-color: #202c7c;
+}
+
+button {
+  background-color: #00badb;
+}
+
+#werrv-logo {
+  max-width: 200px;
+}
+
+input {
+  width: 50%;
+  margin: auto;
+  background-color: #d1d9e5;
+}
+
+#close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#contact {
+  position: absolute; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  top: 10em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c4c4c4;
+  border: black;
+  border-style: solid;
+  border-width: medium;
+  padding: 2em;
+  overflow: auto;
+}
+
+#detail {
+  position: absolute; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  top: 10em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c4c4c4;
+  border: black;
+  border-style: solid;
+  border-width: medium;
+  padding: 2em;
+  overflow: auto;
+}
+
+form {
+  text-align: left;
+}
